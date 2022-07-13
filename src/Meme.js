@@ -26,8 +26,8 @@ export default function Meme() {
     return (
     <div className="meme">
                 <img src={meme.randomImage} className="meme--image" />
-                <h2 className="meme--text top">{meme.topText}</h2>
-                <h2 className="meme--text bottom">{meme.bottomText}</h2>
+                <h2 className="meme--text top">Eboni</h2>
+                <h2 className="meme--text bottom">Williams</h2>
             </div>
     )
 }
