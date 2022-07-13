@@ -5,13 +5,13 @@ export default function Navbar() {
 
 // When the user scrolls down 20px from the top of the document, slide down the navbar
 // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
+    // document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    // document.getElementById("navbar").style.top = "-50px";
   }
 }
 
@@ -24,10 +24,10 @@ function scrollFunction() {
               <p className="navbar--title">Meme Generator</p>
 
               <ul>
-
-                <li><a href="#home">Home</a></li>
+              <li><a href="#home">"LEVEL 3 CAPSTONE"</a></li>
+                {/* <li><a href="#home">Home</a></li>
                 <li><a href="#meme-gen">Meme Generator</a></li>
-                <li><a href="#footer">Credits</a></li>
+                <li><a href="#footer">Credits</a></li> */}
               </ul>
             </div>
         </>
